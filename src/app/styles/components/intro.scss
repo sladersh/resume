@@ -1,0 +1,99 @@
+@use "../index" as *;
+
+.intro-container {
+  max-width: 50rem;
+  margin-top: 3rem;
+  border: 1px solid green;
+
+  .bio {
+    display: flex;
+    align-items: center;
+
+    img.profile-pic {
+      max-width: 10rem;
+      height: auto;
+      border-radius: 50%;
+      border: 0.2rem solid var(--primary-accent);
+      padding: 0.2rem;
+    }
+
+    .intro {
+      margin-left: 2rem;
+
+      .heading {
+        display: flex;
+        align-items: center;
+
+        h1.name {
+          text-transform: uppercase;
+          font-size: 3rem;
+          font-weight: 700;
+          letter-spacing: 0.2rem;
+          @include heading-color;
+        }
+
+        .toggle-theme {
+          width: 1.8rem;
+          height: 1.8rem;
+          background: var(--secondary-bg);
+          border: none;
+          outline: none;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          margin-left: 1rem;
+          font-size: 1.2rem;
+
+          .fa-moon {
+            color: #f1c40f;
+          }
+
+          .fa-sun {
+            color: #f39c12;
+          }
+        }
+      }
+
+      .headline {
+        margin-top: 1rem;
+        @include text-color;
+      }
+
+      .mail {
+        margin-top: 1rem;
+        color: var(--heading-color);
+
+        span {
+          margin-left: 0.5rem;
+          font-weight: bold;
+
+          a {
+            color: var(--heading-color);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .link {
+      background: var(--secondary-bg);
+      padding: 0.5rem;
+      text-decoration: none;
+      color: var(--text-color);
+      border-radius: 0.3rem;
+
+      &:hover {
+        color: var(--primary-accent);
+      }
+
+      span {
+        margin-left: 0.4rem;
+      }
+    }
+  }
+}

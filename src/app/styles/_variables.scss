@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+// Light theme variables
+$lightPrimaryAccent: #1976d2;
+$lightPrimaryBg: #f2f2f2;
+$lightSecondaryBg: darken(#f2f2f2, 5%);
+$lightHeading: #333;
+$lightText: #444;
+
+// Dark theme variables
+$darkPrimaryAccent: #0d47a1;
+$darkPrimaryBg: #131415;
+$darkSecondaryBg: lighten(#131415, 8%);
+$darkHeading: #fafafa;
+$darkText: darken(#fafafa, 20%);
+
+// variables
+$font: "Work Sans", sans-serif;
