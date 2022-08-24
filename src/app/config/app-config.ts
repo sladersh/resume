@@ -10,6 +10,7 @@ export const IntroData = {
   headline:
     'Software Engineer | Angular Developer | Front-end Developer | Student at University West, Sweden - Master in AI and Automation',
   mail: 'iamadershsl@gmail.com',
+  copiedText: 'Copied'
 };
 
 // Profile Component

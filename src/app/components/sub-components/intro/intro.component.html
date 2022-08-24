@@ -22,7 +22,9 @@
         <button class="copy-icon" (click)="copyMail()">
           <fa-icon [icon]="faClipboard"></fa-icon>
         </button>
-        <span class="copied-info" *ngIf="showInfo">Copied...</span>
+        <span class="copied-info" *ngIf="showInfo">
+          {{ introData.copiedText }}
+        </span>
       </div>
     </div>
   </div>
