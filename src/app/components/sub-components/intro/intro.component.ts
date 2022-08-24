@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileImage, IntroData } from 'src/app/config/app-config';
-import { faMoon, faSun } from '@fortawesome/free-regular-svg-icons';
+import {
+  faMoon,
+  faSun,
+  faClipboard,
+} from '@fortawesome/free-regular-svg-icons';
 import {
   faEnvelope,
   faGlobe,
@@ -27,9 +31,11 @@ export class IntroComponent implements OnInit {
   faGithub = faGithub;
   faGlobe = faGlobe;
   faFileContract = faFileContract;
+  faClipboard = faClipboard;
 
   // Component Variables
   darkTheme: boolean = true;
+  showInfo: boolean = false;
   socialLinks: Links[] = [
     {
       icon: faGlobe,
@@ -64,5 +70,14 @@ export class IntroComponent implements OnInit {
       document.body.classList.add('dark-theme');
     }
     this.darkTheme = !this.darkTheme;
+  }
+
+  copyMail() {
+    navigator.clipboard.writeText(this.introData.mail).then(() => {
+      this.showInfo = true;
+      window.setTimeout(() => {
+        this.showInfo = false;
+      }, 2000);
+    });
   }
 }

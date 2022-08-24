@@ -18,7 +18,11 @@
       <div class="headline">{{ introData.headline }}</div>
       <div class="mail">
         <fa-icon [icon]="faEnvelope"></fa-icon>
-        <span>{{ introData.mail }}</span>
+        <span class="mail-id">{{ introData.mail }}</span>
+        <button class="copy-icon" (click)="copyMail()">
+          <fa-icon [icon]="faClipboard"></fa-icon>
+        </button>
+        <span class="copied-info" *ngIf="showInfo">Copied...</span>
       </div>
     </div>
   </div>
