@@ -2,4 +2,4 @@
 
 Developed using Angular 14
 
-Live link 👉 [https://sladersh.github.io/Resume/](https://sladersh.github.io/Resume/)
+Live link 👉 [https://sladersh.github.io/resume/](https://sladersh.github.io/resume/)
