@@ -8,9 +8,9 @@ export const ProfileImage = {
 export const IntroData = {
   name: 'Adersh S L',
   headline:
-    'Software Engineer | Angular Developer | Front-end Developer | Student at University West, Sweden - Master in AI and Automation',
+    'Angular Developer | JavaScript Developer | Frontend Developer | Software Engineer',
   mail: 'iamadershsl@gmail.com',
-  copiedText: 'Copied'
+  copiedText: 'Copied',
 };
 
 // Profile Component
@@ -18,9 +18,10 @@ export const IntroData = {
 export const ProfileData = {
   heading: 'Professional Profile',
   data: [
-    'Front-end developer with 2 years of experience in Angular.',
-    'Currently doing Masters in AI and Automation at University West, Sweden.',
+    'Frontend developer with two plus years of experience in developing web applications using Angular and JavaScript.',
+    'Skilled in designing and implementing software solutions, troubleshooting, and testing code.',
     'Interested to work in both front-end and full stack projects using Angular and MEAN stack.',
+    'Seeking a challenging role in a dynamic organization where I can apply my skills and contribute to the growth of the company.',
   ],
 };
 
@@ -28,6 +29,16 @@ export const ProfileData = {
 
 export const SkillsData = {
   heading: 'Skills & Technologies',
+  data: [
+    'Proficient in Angular, JavaScript, HTML, CSS, and TypeScript.',
+    'Experience in developing responsive web applications.',
+    'Knowledge of version control tools like Git.',
+    'Proficient in Python programming language.',
+    'Knowledge of Machine Learning concepts and techniques.',
+    'Familiarity with OpenCV library for computer vision tasks.',
+    'Familiarity with database management systems like MySQL and MongoDB.',
+    'Familiarity with Agile methodologies and Scrum framework.',
+  ],
 };
 
 // Work Component
@@ -36,16 +47,17 @@ export const WorkData = {
   heading: 'Work Experience',
   data: [
     {
-      role: 'Angular Developer | Front-end Developer',
+      role: 'Angular Developer | Frontend Developer | Assistant System Engineer',
       date: 'October 2020 - August 2022',
       company: 'TATA Consultancy Services',
       location: 'Kochi, Kerala, India',
       works: [
-        'Worked in GE HealthCare project titled Digitized Problem Solving Report (dPSR).',
-        'Implemented SPA using Angular 10, TypeScript, JavaScript, and SASS.',
-        'Integrated libraries like Intro.js, NgBootstrap, Chart.js, Angular Multiselect Dropdown, Ng2Charts etc.',
-        'Implemented application tour functionality using Intro.js, which helped the users to reduce the learning curve of the application.',
-        'Position: Assistant System Engineer',
+        'Worked as an Angular developer on the GE HealthCare project entitled Digitized Problem-Solving Report (dPSR).',
+        'Implemented a single-page application (SPA) using Angular 10, TypeScript, JavaScript, and SASS.',
+        "Integrated various libraries such as Intro.js, NgBootstrap, Chart.js, Ng-Multiselect Dropdown, Ng2-Charts, etc., to enhance the application's functionality.",
+        'Implemented the application tour functionality using Intro.js, resulting in improved usability.',
+        'Collaborated with the development team to design and implement software solutions to meet business requirements.',
+        'Conducted testing, troubleshooting, and debugging of code issues to ensure high-quality deliverables.',
       ],
     },
   ],
@@ -62,7 +74,11 @@ export const EducationData = {
       college: 'University West',
       university: '',
       location: 'Trollhättan, Sweden',
-      points: [],
+      points: [
+        '30 credits completed',
+        'Completed mini-project using OpenCV and Python.',
+        'Completed mini-project in Deep Learning.',
+      ],
     },
     {
       degree: 'B Tech in Computer Science and Engineering',
@@ -84,5 +100,5 @@ export const EducationData = {
 // Footer Component
 export const FooterData = {
   info: 'Adersh S L - Digital Resume',
-  version: 'v1.0',
+  version: 'v2.0',
 };

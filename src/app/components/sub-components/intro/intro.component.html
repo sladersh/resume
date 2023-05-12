@@ -19,7 +19,7 @@
       <div class="mail">
         <fa-icon [icon]="faEnvelope"></fa-icon>
         <span class="mail-id">{{ introData.mail }}</span>
-        <button class="copy-icon" (click)="copyMail()">
+        <button class="copy-icon" (click)="copyMail()" type="button">
           <fa-icon [icon]="faClipboard"></fa-icon>
         </button>
         <span class="copied-info" *ngIf="showInfo">

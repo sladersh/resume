@@ -40,4 +40,20 @@
       }
     }
   }
+
+  .skills-detailed {
+    margin: 1rem 0.5rem;
+
+    ul.list {
+      list-style: none;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        .fa-circle-check {
+          color: var(--primary-accent);
+        }
+      }
+    }
+  }
 }

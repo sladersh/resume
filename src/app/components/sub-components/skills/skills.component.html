@@ -23,6 +23,14 @@
             </div>
           </ng-container>
         </div>
+        <div class="skills-detailed">
+          <ul class="list">
+            <li *ngFor="let data of skillsData.data">
+              <fa-icon [icon]="faCircleCheck"></fa-icon>
+              {{ data }}
+            </li>
+          </ul>
+        </div>
       </ng-template>
     </ngb-panel>
   </ngb-accordion>

@@ -4,8 +4,17 @@ import {
   faAngleUp,
   faAngleDown,
   faCode,
+  faCircleCheck,
 } from '@fortawesome/free-solid-svg-icons';
-import { faAngular, faJs, faSass } from '@fortawesome/free-brands-svg-icons';
+import {
+  faAngular,
+  faJs,
+  faSass,
+  faHtml5,
+  faCss3,
+  faPython,
+  faSquareGit,
+} from '@fortawesome/free-brands-svg-icons';
 import { Skills } from 'src/app/models/skills';
 
 @Component({
@@ -24,6 +33,11 @@ export class SkillsComponent implements OnInit {
   faJs = faJs;
   faCode = faCode;
   faSass = faSass;
+  faHtml5 = faHtml5;
+  faCss3 = faCss3;
+  faPython = faPython;
+  faSquareGit = faSquareGit;
+  faCircleCheck = faCircleCheck;
 
   // Component Variables
   isCollapsed = false;
@@ -43,6 +57,22 @@ export class SkillsComponent implements OnInit {
     {
       icon: faSass,
       text: 'SASS',
+    },
+    {
+      icon: faHtml5,
+      text: 'HTML5',
+    },
+    {
+      icon: faCss3,
+      text: 'CSS3',
+    },
+    {
+      icon: faPython,
+      text: 'Python',
+    },
+    {
+      icon: faSquareGit,
+      text: 'Git',
     },
   ];
 

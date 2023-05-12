@@ -37,11 +37,11 @@ export class IntroComponent implements OnInit {
   darkTheme: boolean = true;
   showInfo: boolean = false;
   socialLinks: Links[] = [
-    {
-      icon: faGlobe,
-      text: 'sladersh.github.io',
-      link: 'https://sladersh.github.io/',
-    },
+    // {
+    //   icon: faGlobe,
+    //   text: 'sladersh.github.io',
+    //   link: 'https://sladersh.github.io/',
+    // },
     {
       icon: faLinkedin,
       text: 'sladersh',
@@ -55,7 +55,7 @@ export class IntroComponent implements OnInit {
     {
       icon: faFileContract,
       text: 'Download Resume',
-      link: 'https://www.dropbox.com/s/0fnbyf3y3m2ubo7/Adersh%20S%20L%20-%20Resume.pdf?dl=1',
+      link: 'https://www.dropbox.com/s/5y2xhnxo7bkimcv/Adersh_Resume.pdf?dl=1',
     },
   ];
 
